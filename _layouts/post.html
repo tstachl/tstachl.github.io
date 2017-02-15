@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<section class="main">
+  <header>
+    <div class="container">
+      <h2>{{ page.title }}</h2>
+      <p>{{ page.date | date_to_string }}</p>
+    </div>
+  </header>
+  <div class="content style1 dark">
+    <div class="container">
+      {{ content }}
+    </div>
+  </div>
+</section>

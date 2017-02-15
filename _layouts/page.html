@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<section id="{{ page.title | slugify}}" class="main">
+  <header>
+    <div class="container">
+      <h2>{{ page.title }}</h2>
+      <p>{{ page.excerpt }}</p>
+    </div>
+  </header>
+  <div class="content dark style1 featured">
+    <div class="container">
+      {{ page.content }}
+    </div>
+  </div>
+</section>
