@@ -35,3 +35,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - Procfile
+  - config.ru
+  - vendor
+  - Rakefile
